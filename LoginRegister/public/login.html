@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+</head>
+<body>
+    <main class="form-container">
+        <section class="form-wrapper">
+            <div class="form-title">
+                <h1>Let's Get Started</h1>
+            </div>
+            <div class="form-info">
+                <p>Uncover the untapped potential of your growth to connect with the world</p>
+            </div>
+            <form id="login">
+                <div class="form-group">
+                    <label>
+                        <input type="email" id="email" placeholder="Email">
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="password" id="password" placeholder="Password">
+                        <p class="warning">Incorrect email or password</p>
+                    </label>
+                </div>
+                <div class="agreement">
+                    <label>
+                        <input type="checkbox"><span>Remember Me</span>
+                    </label>
+                    <p class="forgotPassword" id="remember"><a href="./reset.html">Forgot password?</a></p>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+            <div class="form-footer">
+                <p>Don't have an account?<a href="./register.html">Create One</a></p>
+            </div>
+        </section>
+        <aside class="form-display">
+            <img src="./assets/image/1.jpg" alt="">
+        </aside>
+    </main>
+
+    <script src="./assets/js/auth.js"></script>
+</body>
+</html>

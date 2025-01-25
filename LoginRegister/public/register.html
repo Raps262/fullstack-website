@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+</head>
+<body>
+    <main class="form-container">
+        <aside class="form-display">
+            <img src="./assets/image/1.jpg" alt="">
+        </aside>
+        <section class="form-wrapper">
+            <div class="form-title">
+                <h1>Let's get started</h1>
+            </div>
+            <div class="form-info">
+                <p>Uncover the untapped potential of your growth to connect with the world</p>
+            </div>
+            <form id="register" class="form">
+                <div class="form-group">
+                    <div class="form-name">
+                        <label>
+                            <input type="text" id="fname" placeholder="First Name">
+                            <p id="fnameWarning">*Enter first name</p>
+                        </label>
+                        <label>
+                            <input type="text" id="lname" placeholder="Last Name">
+                            <p id="lnameWarning">*Enter last name</p>
+                        </label>
+                    </div>
+                </div>
+                <div for="form-group">
+                    <label>
+                        <input type="email" id="email" placeholder="Email">
+                        <p id="emailWarning">*Invalid format</p>
+                    </label>
+                </div>
+                <div for="form-group">
+                    <label>
+                        <input type="password" id="password" placeholder="password">
+                        <p id="passwordWarning">*Contains at least 8 character</p>
+                    </label>
+                </div>
+                <div for="form-group">
+                    <label>
+                        <input type="password" id="cnfPassword" placeholder="Confirm Password">
+                        <p id="cnfPasswordWarning">*Password did not match</p>
+                    </label>
+                </div>
+                <div class="agreement">
+                    <label>
+                        <input type="checkbox" id="checkbox"><span><p>I agree with <a href="#"> Terms of Service</a></p></span>
+                    </label>
+                </div>
+                <button type="submit" class="btn">Create Account</button>
+            </form>
+            <div class="form-footer">
+                <p>Already have an account? <a href="./login.html">Login</a></p>
+            </div>
+        </section>
+    </main>
+
+    <script src="./assets/js/register.js"></script>
+</body>
+</html>
